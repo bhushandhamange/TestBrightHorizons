@@ -1,0 +1,4 @@
+# Created at 2024-10-01T00:02:58.571
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Selenium\Workspace\CucumberFullProject\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
