@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(	
 		features = { "src/test/resources/AppFeatures" }, 
 		glue = { "stepdefinitions", "appHooks" }, 
-		plugin = { "pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
-		tags = "@Regression"
+		plugin = { "pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
+		//tags = "@Regression"
 		)
 public class MyTestRunner extends AbstractTestNGCucumberTests{
 	
